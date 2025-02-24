@@ -1,8 +1,8 @@
 # CLASE-12-DE-FEBRERO
 # CONTROL METODO CASCADA
-*Tener en cuenta el esquema P&D
-*Busca rechazar todas las pertubaciones
-*Los cambios en la corriente son perturbaciones
+* Tener en cuenta el esquema P&D.
+* Busca rechazar todas las pertubaciones.
+* Los cambios en la corriente son perturbaciones.
 C2 MAS RAPIDO QUE C1
 (imagen)
 
@@ -20,9 +20,7 @@ Se utiliza para medir mas de una variable
 ## 2. CASOS DE APLICACIONES
 
 **Caso 1:** Donde las perturbaciones afenten mucho el funcionamiento del sistema.
-
 **Caso 2:** Donde tienen disponibles varibles mas rapidas que la variable controlada.
-
 **Caso 3:** Donde se desea hacer mas rapida la dinamica de la variable controlada.
 
 
