@@ -1,14 +1,29 @@
 # CLASE-12-DE-FEBRERO
 # CONTROL METODO CASCADA
-El título de cada clase, correspondiente al tema general que se trabaje en clase. Siempre después de cada título de clase, redactar una breve introducción (mínimo un párrafo) que de una mirada general al tema
-## 1. Subtítulos
-Agregue todos los subtítulos que considere necesarios para estructurar el contenido de la clase. Es importante que considere jerarquías de los temas para definir el orden de estos subtítulos. Cada subtítulo debe ir numerado como una sección, de la manera en que lo presenta esta plantilla
+*Tener en cuenta el esquema P&D
+*Busca rechazar todas las pertubaciones
+*Los cambios en la corriente son perturbaciones
+C2 MAS RAPIDO QUE C1
+(imagen)
 
-## 2. Definiciones
-Utilice el símbolo '>' para crear bloques de texto. En la presente plantilla estas cajas están reservadas para resaltar las definiciones, las cuales deben ser breves, y la palabra o frase que se está definiendo debe estar en letra itálica. El inicio del bloque de texto debe realizarse con el emoji 🔑 .
->🔑 *Definición:* descripción precisa y clara del significado de una palabra, término, concepto o fenómeno. Es una explicación que establece los límites y el alcance de aquello que se está definiendo, aclarando su naturaleza, características esenciales y, en algunos casos, su relación con otros conceptos.
+## 1. TTIPOS DE CONTROLADORES
+LAZO MAS INTERNO:
+* Lazo que quiero rechazar
+* Poner un proporcional o controlador PI
+* No poner controlador D ya que vuelve lento el sistema
+LAZO EXTERNO:
+* Utilizar PI
+* Utilizar PID para garantizar llegar de la forma mas suave y eliminar el error de estado estacionario
 
-## 3. Subsecciones
+Se utiliza para medir mas de una variable
+
+## 2. CASOS DE APLICACIONES
+
+**Caso 1:** Donde las perturbaciones afenten mucho el funcionamiento del sistema
+**Caso 2:** Donde tienen disponibles varibles mas rapidas que la variable controlada
+**Caso 3:** Donde se desea hacer mas rapida la dinamica de la variable controlada
+
+## 3. METODOS DE SINTONIZACIÓN
 Las subsecciones pueden utilizarse para sub dividir ciertos temas que se tienen en clases, por ejemplo si se está trabajandolos conversores D/A, puede ser necesario subdividir este en circuito de resistencias ponderadas y circuito de escalera R2R. 
 ### 3.1. Título de subsecciones
 Para la creación de estas subsecciones debe utilizar un tamaño de letra más pequeño, por lo tanto utilice la etiqueta '###' 
