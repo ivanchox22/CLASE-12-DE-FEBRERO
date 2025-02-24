@@ -20,17 +20,28 @@ Se utiliza para medir mas de una variable
 ## 2. CASOS DE APLICACIONES
 
 **Caso 1:** Donde las perturbaciones afenten mucho el funcionamiento del sistema.
+
 **Caso 2:** Donde tienen disponibles varibles mas rapidas que la variable controlada.
+
 **Caso 3:** Donde se desea hacer mas rapida la dinamica de la variable controlada.
 
 
 ## 3. METODOS DE SINTONIZACIÓN
-Las subsecciones pueden utilizarse para sub dividir ciertos temas que se tienen en clases, por ejemplo si se está trabajandolos conversores D/A, puede ser necesario subdividir este en circuito de resistencias ponderadas y circuito de escalera R2R. 
-### 3.1. Título de subsecciones
-Para la creación de estas subsecciones debe utilizar un tamaño de letra más pequeño, por lo tanto utilice la etiqueta '###' 
-### 3.2. Numeración de subsecciones
-Siga la numeración de la sección seguida de un punto y luego el número de la subsección.
+**Empiricas:**
+* lazo Abierto
 
+* Lazo Cerrado
+
+**Basados en modelos rigurosos**
+* Inteligencia computacional*
+
+### 3.1 EMPIRICO LAZO ABIERTO
+* Modelo e la variable principal
+
+* Modelo de las demas variables
+
+  $G2=\frac{0.5e^-s}{2s+1}$
+  $G1=\frac{e^-10s}{15s+1}$  
 ## 4. Ejemplos
 Si en algún caso pretende dar un ejemplo explicativo ya sea a través de texto o através de ecuaciones matemáticos, utilizar la palabra 'Ejemplo' seguido de una numeración consecutiva dentro de la clase. Utilice el emoji 💡 antecediendo la palabra.
 
